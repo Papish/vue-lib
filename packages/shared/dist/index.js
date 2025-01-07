@@ -1,5 +1,5 @@
 const e = () => {
-  console.log("grettings!!!");
+  console.log("new grettings!!!");
 };
 export {
   e as greetings

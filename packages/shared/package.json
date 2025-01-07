@@ -1,6 +1,6 @@
 {
   "name": "@blueberry-pop/shared",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Shared library",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -12,7 +12,8 @@
     "dist"
   ],
   "scripts": {
-    "build": "vite build"
+    "build": "vite build",
+    "prepublishOnly": "pnpm run build"
   },
   "exports": {
     ".": {
