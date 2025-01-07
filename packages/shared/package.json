@@ -1,10 +1,13 @@
 {
   "name": "@blueberry-pop/shared",
   "version": "1.0.0",
-  "description": "",
+  "description": "Shared library",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     "dist"
   ],
