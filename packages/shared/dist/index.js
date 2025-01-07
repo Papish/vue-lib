@@ -1,6 +1,6 @@
-const e = () => {
-  console.log("new grettings!!!");
+const o = (e) => {
+  console.log(`Hello, ${e.text}`);
 };
 export {
-  e as greetings
+  o as greetings
 };
