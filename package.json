@@ -6,7 +6,7 @@
   "scripts": {
     "format": "prettier --write ./packages/**",
     "build": "pnpm -r run build",
-    "publish": "pnpm -r publish --access public --no-git-checks"
+    "publish": "pnpm -r publish --access public --no-git-checks --filter ./packages/shared"
   },
   "keywords": [],
   "author": "",
@@ -14,5 +14,9 @@
   "devDependencies": {
     "prettier": "^3.4.2",
     "pnpm": "^9.11.0"
-  }
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
 }
